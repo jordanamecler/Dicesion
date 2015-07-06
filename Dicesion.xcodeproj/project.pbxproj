@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC586ED1B14A04100826C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC586EC1B14A04100826C5E /* AppDelegate.swift */; };
+		0CC586EF1B14A04100826C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC586EE1B14A04100826C5E /* ViewController.swift */; };
+		0CC586F21B14A04100826C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC586F01B14A04100826C5E /* Main.storyboard */; };
+		0CC586F41B14A04100826C5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC586F31B14A04100826C5E /* Images.xcassets */; };
+		0CC586F71B14A04100826C5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC586F51B14A04100826C5E /* LaunchScreen.xib */; };
+		0CC587031B14A04100826C5E /* DicesionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC587021B14A04100826C5E /* DicesionTests.swift */; };
+		0CC587151B14A0BF00826C5E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC587141B14A0BF00826C5E /* InterfaceController.swift */; };
+		0CC587171B14A0BF00826C5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC587161B14A0BF00826C5E /* Images.xcassets */; };
+		0CC5871B1B14A0BF00826C5E /* Dicesion WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0CC5871A1B14A0BF00826C5E /* Dicesion WatchKit App.app */; };
+		0CC587231B14A0BF00826C5E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC587211B14A0BF00826C5E /* Interface.storyboard */; };
+		0CC587251B14A0BF00826C5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC587241B14A0BF00826C5E /* Images.xcassets */; };
+		0CC587281B14A0BF00826C5E /* Dicesion WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0CC587101B14A0BF00826C5E /* Dicesion WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC586FD1B14A04100826C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC586DF1B14A04100826C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC586E61B14A04100826C5E;
+			remoteInfo = Dicesion;
+		};
+		0CC5871C1B14A0BF00826C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC586DF1B14A04100826C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC587191B14A0BF00826C5E;
+			remoteInfo = "Dicesion WatchKit App";
+		};
+		0CC587261B14A0BF00826C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC586DF1B14A04100826C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC5870F1B14A0BF00826C5E;
+			remoteInfo = "Dicesion WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CC5872F1B14A0BF00826C5E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0CC587281B14A0BF00826C5E /* Dicesion WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CC586E71B14A04100826C5E /* Dicesion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicesion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC586EB1B14A04100826C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC586EC1B14A04100826C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CC586EE1B14A04100826C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CC586F11B14A04100826C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CC586F31B14A04100826C5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0CC586F61B14A04100826C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0CC586FC1B14A04100826C5E /* DicesionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicesionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC587011B14A04100826C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC587021B14A04100826C5E /* DicesionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesionTests.swift; sourceTree = "<group>"; };
+		0CC587101B14A0BF00826C5E /* Dicesion WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dicesion WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC587131B14A0BF00826C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC587141B14A0BF00826C5E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0CC587161B14A0BF00826C5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0CC5871A1B14A0BF00826C5E /* Dicesion WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicesion WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC587201B14A0BF00826C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC587221B14A0BF00826C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0CC587241B14A0BF00826C5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC586E41B14A04100826C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC586F91B14A04100826C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC5870D1B14A0BF00826C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC586DE1B14A04100826C5E = {
+			isa = PBXGroup;
+			children = (
+				0CC586E91B14A04100826C5E /* Dicesion */,
+				0CC586FF1B14A04100826C5E /* DicesionTests */,
+				0CC587111B14A0BF00826C5E /* Dicesion WatchKit Extension */,
+				0CC5871E1B14A0BF00826C5E /* Dicesion WatchKit App */,
+				0CC586E81B14A04100826C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC586E81B14A04100826C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CC586E71B14A04100826C5E /* Dicesion.app */,
+				0CC586FC1B14A04100826C5E /* DicesionTests.xctest */,
+				0CC587101B14A0BF00826C5E /* Dicesion WatchKit Extension.appex */,
+				0CC5871A1B14A0BF00826C5E /* Dicesion WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC586E91B14A04100826C5E /* Dicesion */ = {
+			isa = PBXGroup;
+			children = (
+				0CC586EC1B14A04100826C5E /* AppDelegate.swift */,
+				0CC586EE1B14A04100826C5E /* ViewController.swift */,
+				0CC586F01B14A04100826C5E /* Main.storyboard */,
+				0CC586F31B14A04100826C5E /* Images.xcassets */,
+				0CC586F51B14A04100826C5E /* LaunchScreen.xib */,
+				0CC586EA1B14A04100826C5E /* Supporting Files */,
+			);
+			path = Dicesion;
+			sourceTree = "<group>";
+		};
+		0CC586EA1B14A04100826C5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC586EB1B14A04100826C5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC586FF1B14A04100826C5E /* DicesionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC587021B14A04100826C5E /* DicesionTests.swift */,
+				0CC587001B14A04100826C5E /* Supporting Files */,
+			);
+			path = DicesionTests;
+			sourceTree = "<group>";
+		};
+		0CC587001B14A04100826C5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC587011B14A04100826C5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC587111B14A0BF00826C5E /* Dicesion WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0CC587141B14A0BF00826C5E /* InterfaceController.swift */,
+				0CC587161B14A0BF00826C5E /* Images.xcassets */,
+				0CC587121B14A0BF00826C5E /* Supporting Files */,
+			);
+			path = "Dicesion WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0CC587121B14A0BF00826C5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC587131B14A0BF00826C5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC5871E1B14A0BF00826C5E /* Dicesion WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0CC587211B14A0BF00826C5E /* Interface.storyboard */,
+				0CC587241B14A0BF00826C5E /* Images.xcassets */,
+				0CC5871F1B14A0BF00826C5E /* Supporting Files */,
+			);
+			path = "Dicesion WatchKit App";
+			sourceTree = "<group>";
+		};
+		0CC5871F1B14A0BF00826C5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC587201B14A0BF00826C5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CC586E61B14A04100826C5E /* Dicesion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC587061B14A04100826C5E /* Build configuration list for PBXNativeTarget "Dicesion" */;
+			buildPhases = (
+				0CC586E31B14A04100826C5E /* Sources */,
+				0CC586E41B14A04100826C5E /* Frameworks */,
+				0CC586E51B14A04100826C5E /* Resources */,
+				0CC5872F1B14A0BF00826C5E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC587271B14A0BF00826C5E /* PBXTargetDependency */,
+			);
+			name = Dicesion;
+			productName = Dicesion;
+			productReference = 0CC586E71B14A04100826C5E /* Dicesion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CC586FB1B14A04100826C5E /* DicesionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC587091B14A04100826C5E /* Build configuration list for PBXNativeTarget "DicesionTests" */;
+			buildPhases = (
+				0CC586F81B14A04100826C5E /* Sources */,
+				0CC586F91B14A04100826C5E /* Frameworks */,
+				0CC586FA1B14A04100826C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC586FE1B14A04100826C5E /* PBXTargetDependency */,
+			);
+			name = DicesionTests;
+			productName = DicesionTests;
+			productReference = 0CC586FC1B14A04100826C5E /* DicesionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CC5870F1B14A0BF00826C5E /* Dicesion WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC5872C1B14A0BF00826C5E /* Build configuration list for PBXNativeTarget "Dicesion WatchKit Extension" */;
+			buildPhases = (
+				0CC5870C1B14A0BF00826C5E /* Sources */,
+				0CC5870D1B14A0BF00826C5E /* Frameworks */,
+				0CC5870E1B14A0BF00826C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC5871D1B14A0BF00826C5E /* PBXTargetDependency */,
+			);
+			name = "Dicesion WatchKit Extension";
+			productName = "Dicesion WatchKit Extension";
+			productReference = 0CC587101B14A0BF00826C5E /* Dicesion WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0CC587191B14A0BF00826C5E /* Dicesion WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC587291B14A0BF00826C5E /* Build configuration list for PBXNativeTarget "Dicesion WatchKit App" */;
+			buildPhases = (
+				0CC587181B14A0BF00826C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dicesion WatchKit App";
+			productName = "Dicesion WatchKit App";
+			productReference = 0CC5871A1B14A0BF00826C5E /* Dicesion WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC586DF1B14A04100826C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JLM;
+				TargetAttributes = {
+					0CC586E61B14A04100826C5E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0CC586FB1B14A04100826C5E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 0CC586E61B14A04100826C5E;
+					};
+					0CC5870F1B14A0BF00826C5E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0CC587191B14A0BF00826C5E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 0CC586E21B14A04100826C5E /* Build configuration list for PBXProject "Dicesion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CC586DE1B14A04100826C5E;
+			productRefGroup = 0CC586E81B14A04100826C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC586E61B14A04100826C5E /* Dicesion */,
+				0CC586FB1B14A04100826C5E /* DicesionTests */,
+				0CC5870F1B14A0BF00826C5E /* Dicesion WatchKit Extension */,
+				0CC587191B14A0BF00826C5E /* Dicesion WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CC586E51B14A04100826C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC586F21B14A04100826C5E /* Main.storyboard in Resources */,
+				0CC586F71B14A04100826C5E /* LaunchScreen.xib in Resources */,
+				0CC586F41B14A04100826C5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC586FA1B14A04100826C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC5870E1B14A0BF00826C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC5871B1B14A0BF00826C5E /* Dicesion WatchKit App.app in Resources */,
+				0CC587171B14A0BF00826C5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC587181B14A0BF00826C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC587231B14A0BF00826C5E /* Interface.storyboard in Resources */,
+				0CC587251B14A0BF00826C5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC586E31B14A04100826C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC586EF1B14A04100826C5E /* ViewController.swift in Sources */,
+				0CC586ED1B14A04100826C5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC586F81B14A04100826C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC587031B14A04100826C5E /* DicesionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC5870C1B14A0BF00826C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC587151B14A0BF00826C5E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC586FE1B14A04100826C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC586E61B14A04100826C5E /* Dicesion */;
+			targetProxy = 0CC586FD1B14A04100826C5E /* PBXContainerItemProxy */;
+		};
+		0CC5871D1B14A0BF00826C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC587191B14A0BF00826C5E /* Dicesion WatchKit App */;
+			targetProxy = 0CC5871C1B14A0BF00826C5E /* PBXContainerItemProxy */;
+		};
+		0CC587271B14A0BF00826C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC5870F1B14A0BF00826C5E /* Dicesion WatchKit Extension */;
+			targetProxy = 0CC587261B14A0BF00826C5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CC586F01B14A04100826C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CC586F11B14A04100826C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CC586F51B14A04100826C5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CC586F61B14A04100826C5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0CC587211B14A0BF00826C5E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CC587221B14A0BF00826C5E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CC587041B14A04100826C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CC587051B14A04100826C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CC587071B14A04100826C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dicesion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CC587081B14A04100826C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dicesion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CC5870A1B14A04100826C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DicesionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dicesion.app/Dicesion";
+			};
+			name = Debug;
+		};
+		0CC5870B1B14A04100826C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DicesionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dicesion.app/Dicesion";
+			};
+			name = Release;
+		};
+		0CC5872A1B14A0BF00826C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Dicesion_WatchKit_Extension;
+				INFOPLIST_FILE = "Dicesion WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0CC5872B1B14A0BF00826C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Dicesion_WatchKit_Extension;
+				INFOPLIST_FILE = "Dicesion WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0CC5872D1B14A0BF00826C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dicesion WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0CC5872E1B14A0BF00826C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dicesion WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC586E21B14A04100826C5E /* Build configuration list for PBXProject "Dicesion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC587041B14A04100826C5E /* Debug */,
+				0CC587051B14A04100826C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC587061B14A04100826C5E /* Build configuration list for PBXNativeTarget "Dicesion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC587071B14A04100826C5E /* Debug */,
+				0CC587081B14A04100826C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC587091B14A04100826C5E /* Build configuration list for PBXNativeTarget "DicesionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC5870A1B14A04100826C5E /* Debug */,
+				0CC5870B1B14A04100826C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC587291B14A0BF00826C5E /* Build configuration list for PBXNativeTarget "Dicesion WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC5872A1B14A0BF00826C5E /* Debug */,
+				0CC5872B1B14A0BF00826C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC5872C1B14A0BF00826C5E /* Build configuration list for PBXNativeTarget "Dicesion WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC5872D1B14A0BF00826C5E /* Debug */,
+				0CC5872E1B14A0BF00826C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC586DF1B14A04100826C5E /* Project object */;
+}
